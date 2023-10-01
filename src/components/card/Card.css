@@ -1,0 +1,45 @@
+.container__card {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 160, 160);
+    color: #1a1a1a;
+    box-shadow: 1px 1px 5px rgb(109, 109, 109);
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.card-span {
+  margin: 20px 0; 
+  font-size: 40px;
+}
+
+.container__card-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.2em 0.7em;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: #ff7664 0.25s;
+  }
+  button:hover {
+    border-color: #ff7664;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
